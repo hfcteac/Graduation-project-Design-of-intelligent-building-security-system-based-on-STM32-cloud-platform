@@ -1,0 +1,57 @@
+实时天气
+https://api.seniverse.com/v3/weather/now.json?key=S-kAm0lDUxT-meOe_&location=anshan&language=zh-Hans&unit=c
+
+经纬度天气
+https://api.seniverse.com/v3/pro/weather/grid/moment.json?key=SdhMdJGuA1hp2SBRk&location=29.6024:106.6572&language=zh-Hans&unit=c&advanced=2.1
+
+灾害预警
+https://api.seniverse.com/v3/weather/alarm.json?key=Syba5YloKML2dxyMA&detail=more
+https://api.seniverse.com/v3/weather/alarm.json?key=S-kAm0lDUxT-meOe_&location=beijing&detail=more
+
+空气质量
+https://api.seniverse.com/v3/air/now.json?key=Syba5YloKML2dxyMA&location=beijing&language=zh-Hans&scope=all
+
+生活指数
+https://api.seniverse.com/v3/life/suggestion.json?key=Syba5YloKML2dxyMA&location=shanghai&language=zh-Hans&days=5
+
+农历，节气，生肖
+https://api.seniverse.com/v3/life/chinese_calendar.json?key=Syba5YloKML2dxyMA&start=2025/3/5&days=1
+
+预报
+https://api.seniverse.com/v3/weather/daily.json?key=S-kAm0lDUxT-meOe_&location=lishan&language=zh-Hans&unit=c&start=0&days=1
+
+试用api     Syba5YloKML2dxyMA
+免费api     SdhMdJGuA1hp2SBRk
+99一年      S-kAm0lDUxT-meOe_
+
+
+
+ const char* results_0_daily_0_date = results_0_daily_0["date"]; // "2019-12-21"==========================今天日期
+    const char* results_0_daily_0_text_day = results_0_daily_0["text_day"]; // "中雨"=========================白天天气
+    const char* results_0_daily_0_code_day = results_0_daily_0["code_day"]; // "14"==========================图标编号
+    const char* results_0_daily_0_text_night = results_0_daily_0["text_night"]; // "中雨"=====================晚上天气
+    const char* results_0_daily_0_code_night = results_0_daily_0["code_night"]; // "14"=======================图标编号
+    const char* results_0_daily_0_high = results_0_daily_0["high"]; // "11"===================================最高气温
+    const char* results_0_daily_0_low = results_0_daily_0["low"]; // "9"======================================最低气温
+    const char* results_0_daily_0_wind_direction = results_0_daily_0["wind_direction"]; // "东北"==============风向
+    const char* results_0_daily_0_wind_direction_degree = results_0_daily_0["wind_direction_degree"]; // "45"==度数
+    const char* results_0_daily_0_wind_speed = results_0_daily_0["wind_speed"]; // "25.20"=====================速度
+    const char* results_0_daily_0_wind_scale = results_0_daily_0["wind_scale"]; // "4"=========================风标
+    const char* results_0_daily_0_humidity = results_0_daily_0["humidity"]; // "94"============================湿度
+
+  int zuigaowendu;
+  int zuidiwendu;
+  int shidu;
+  int tianqitubiao;
+  int fengxiang;
+  int fengjiaodu;
+  float fengsu;
+  int dengji;
+  
+21:45:20.591 -> 天数0,天气9,低温-3,高温5,湿度30,风角180,风速43.3,等级6
+21:45:25.782 -> 天数1,天气0,低温-3,高温4,湿度32,风角0,风速8.4,等级2
+编码：
+天数+天气+湿度+风角=0930180
+风等级+风速=6433
+低温
+高温
