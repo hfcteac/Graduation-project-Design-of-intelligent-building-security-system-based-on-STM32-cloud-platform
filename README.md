@@ -20,7 +20,7 @@ QQ：2251317735
 本作品其中关于逆变并网部分是由李思雨参与制作。
 其他：本项目的人脸识别部分由辽宁科技大学研电信余胤翔指导制作（有权使用该部分内容）。
 
-关于授权：声明，辽宁科技大学电信学院自动化221李思雨、辽宁科技大学电信学院测控232董佳琪、辽宁科技大学电子231李莹有权使用该作品进行改良，并使用作品进行二创，竞赛和其他创作。作者宋楠对此保留全部解释权和所有版权，也对滥用该作品保留追究责任的权力，包括但不限于对于侵权者的律师函，向有关竞赛官方举报作品剽窃等。因为版权问题引起纠纷造成损失，作者不承担任何责任。
+关于授权：声明，声明，辽宁科技大学电信学院自动化221李思雨、辽宁科技大学电子221王菲、辽宁科技大学电信学院测控232董佳琪、辽宁科技大学电子231李莹有权使用该作品进行改良，并使用作品进行二创，竞赛和其他创作。作者宋楠对此保留全部解释权和所有版权，也对滥用该作品保留追究责任的权力，包括但不限于对于侵权者的律师函，向有关竞赛官方举报作品剽窃等。因为版权问题引起纠纷造成损失，作者不承担任何责任。
 
 
 # Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform
@@ -45,4 +45,4 @@ School, major: University of Science and Technology Liaoning, Automation.
 Li Siyu participated in the production of the part of this work about inverter grid connection.
 Others: The face recognition part of this project is directed by Yu Yinxiang of Liaoning University of Science and Technology (with the right to use this part).
 
-Authorization: It is declared that Li Siyu, Dong Jiaqi, and Li Ying have the right to use this work for improvement, second creation, competition and other creations. Song Nan, the author, reserves the right to interpret this work and all copyrights, and also reserves the right to investigate the responsibility for the abuse of this work, including but not limited to the lawyer's letter to the infringer and reporting the plagiarism of the work to the relevant competition officials. The author does not assume any responsibility for the losses caused by disputes caused by copyright issues.
+Authorization: It is declared that Li Siyu, Wang Fei, Dong Jiaqi, and Li Ying have the right to use this work for improvement, second creation, competition and other creations. Song Nan, the author, reserves the right to interpret this work and all copyrights, and also reserves the right to investigate the responsibility for the abuse of this work, including but not limited to the lawyer's letter to the infringer and reporting the plagiarism of the work to the relevant competition officials. The author does not assume any responsibility for the losses caused by disputes caused by copyright issues.
