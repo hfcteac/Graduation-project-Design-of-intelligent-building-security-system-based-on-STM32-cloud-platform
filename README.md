@@ -20,4 +20,29 @@ QQ：2251317735
 本作品其中关于逆变并网部分是由李思雨参与制作。
 其他：本项目的人脸识别部分由辽宁科技大学研电信余胤翔指导制作（有权使用该部分内容）。
 
-关于授权：声明，辽宁科技大学电信学院自动化221李思雨、辽宁科技大学电信学院测控232董佳琪、辽宁科技大学电子231李莹有权使用该作品进行改良，并使用作品进行二创，竞赛和其他创作。作者宋楠对此保留全部解释权和所有版权，也对滥用该作品保留追究责任的权力，包括但不限于对于侵权者的律师函，向有关竞赛官方举报作品剽窃等。因为版权问题引起纠纷造成损失，作者不承担任何责任。
+关于授权：声明，声明，辽宁科技大学电信学院自动化221李思雨、辽宁科技大学电子221王菲、辽宁科技大学电信学院测控232董佳琪、辽宁科技大学电子231李莹有权使用该作品进行改良，并使用作品进行二创，竞赛和其他创作。作者宋楠对此保留全部解释权和所有版权，也对滥用该作品保留追究责任的权力，包括但不限于对于侵权者的律师函，向有关竞赛官方举报作品剽窃等。因为版权问题引起纠纷造成损失，作者不承担任何责任。
+
+
+# Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform
+Design of Building Security and Photovoltaic Grid-connected System Based on STM32 Copyright: Song Nan. No reprinting without permission. Tel: +86 158 4025 2139.
+Program statement: Bi Jian's works are prohibited from being used without permission. No reference will be provided until the manuscript is sealed.
+Confidentiality statement: Confidentiality contents include but are not limited to: program, circuit diagram, schematic diagram, lighting technology Bafayun app interface, etc.
+Bi topic: Design of building security and photovoltaic grid-connected system based on STM32.
+Contents: pedestrian detection, fire detection, fire fighting operation, solar grid connection, face recognition, fingerprint recognition, credit card recognition and cloud platform control.
+Cloud content: knowing the weather, lighting technology, enterprise WeChat, Bafayun
+Face recognition equipment: RDK X5 and RaspberryPI 5B/4B
+Author: Song Nan 120213102094
+Tel: 15840252139
+QQ：3024026153
+VX：lnkdng1314
+Date of birth: March 7, 2003
+School, major: Liaoning University of Science and Technology, electrical engineering and automation.
+Second author: Li Siyu 120223013087 (has the right to use all the content, and has full authority).
+Tel: 13194101568
+QQ：2251317735
+Date of birth: July 1, 2004
+School, major: University of Science and Technology Liaoning, Automation.
+Li Siyu participated in the production of the part of this work about inverter grid connection.
+Others: The face recognition part of this project is directed by Yu Yinxiang of Liaoning University of Science and Technology (with the right to use this part).
+
+Authorization: It is declared that Li Siyu, Wang Fei, Dong Jiaqi, and Li Ying have the right to use this work for improvement, second creation, competition and other creations. Song Nan, the author, reserves the right to interpret this work and all copyrights, and also reserves the right to investigate the responsibility for the abuse of this work, including but not limited to the lawyer's letter to the infringer and reporting the plagiarism of the work to the relevant competition officials. The author does not assume any responsibility for the losses caused by disputes caused by copyright issues.
