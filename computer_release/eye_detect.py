@@ -7,12 +7,12 @@ from imutils import face_utils
 
 # dlib 人脸检测器 + 预测器 (shape predictor)
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(r"C:\Users\hafeizhou\Desktop\jswjj\computer_release\shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor(r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\shape_predictor_68_face_landmarks.dat")
 # 加载 dlib 的人脸识别模型
-face_rec_model = dlib.face_recognition_model_v1(r"C:\Users\hafeizhou\Desktop\jswjj\computer_release\dlib_face_recognition_resnet_model_v1.dat")
+face_rec_model = dlib.face_recognition_model_v1(r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\dlib_face_recognition_resnet_model_v1.dat")
 
 # 修改：从文件加载已知特征
-with open(r"C:\Users\hafeizhou\Desktop\jswjj\computer_release\known_faces_features.pkl", "rb") as f:
+with open(r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\known_faces_features.pkl", "rb") as f:
     known_faces = pickle.load(f)
 
 def compare_faces(face_descriptor, known_faces, threshold=0.45):

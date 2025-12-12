@@ -8,13 +8,12 @@ import os.path
 
 # 初始化模型
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(r"C:\Users\yyx\Desktop\face_detect\computer\shape_predictor_68_face_landmarks.dat")
-face_rec_model = dlib.face_recognition_model_v1(r"C:\Users\yyx\Desktop\face_detect\computer\dlib_face_recognition_resnet_model_v1.dat")
+predictor = dlib.shape_predictor(r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\shape_predictor_68_face_landmarks.dat")
+face_rec_model = dlib.face_recognition_model_v1(r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\dlib_face_recognition_resnet_model_v1.dat")
 
 # 存放原图的目录和保存特征的文件路径
-faces_dir = r"C:\Users\yyx\Desktop\face_detect\computer\known_faces"
-save_path = r"C:\Users\yyx\Desktop\face_detect\computer\known_faces_features.pkl"
-
+faces_dir = r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\known_faces"
+save_path = r"C:\Users\hafeizhou\Desktop\jswjj\Graduation-project-Design-of-intelligent-building-security-system-based-on-STM32-cloud-platform\computer_release\known_faces_features.pkl"
 # 调整为更严格的阈值，避免误识别
 IDENTITY_THRESHOLD = 0.3  # 降低阈值会减少误识别率，但可能会增加拒识率
 
